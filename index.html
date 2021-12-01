@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <!-- css -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- register css文件 -->
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/reg.js"></script>
+</head>
+
+<body>
+    <div class="w">
+        <!-- header -->
+        <div class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <p>This is an regular expression exmaple for form validation</p>
+        <!-- registerarea -->
+        <div class="registerarea">
+            <h3>
+                Register
+                <em>
+					I have an account，<a href="login.html">sign in</a>
+				</em>
+            </h3>
+            <div class="reg_form">
+
+                <form action="demo.php">
+                    <ul>
+                        <li>
+                            <label for="tel">Phone:</label>
+                            <input type="text" class="inp" id="tel">
+                            <span class="">		
+						
+						</span>
+                        </li>
+                        <li>
+                            <label for="nickname">Username:</label>
+                            <input type="text" class="inp" id="nickname">
+                            <span></span>
+                        </li>
+                        <li>
+                            <label for="msg">Verification Code:</label>
+                            <input type="text" class="inp" id="msg">
+                            <span></span>
+                        </li>
+                        <li>
+                            <label for="pwd">Password:</label>
+                            <input type="text" class="inp" id="pwd">
+                            <span>
+                            </span>
+                        </li>
+                        <li class="safe">
+                            Password strength
+                            <em class="ruo">Weak</em>
+                            <em class="zhong">Good</em>
+                            <em class="qiang">Strong</em>
+                        </li>
+
+                        <li>
+                            <label for="confirmpwd">Confirm password:</label>
+                            <input type="text" class="inp" id="confirmpwd">
+                            <span></span>
+                        </li>
+                        <li class="agree">
+
+                            <input type="checkbox">Agree and register
+                            <a href="#">User Agreement</a>
+                        </li>
+                        <li>
+                            <input type="submit" value="Sign up" class="over">
+                        </li>
+                    </ul>
+                </form>
+
+            </div>
+        </div>
+        <div class="footer">
+        </div>
+    </div>
+</body>
+
+</html>
